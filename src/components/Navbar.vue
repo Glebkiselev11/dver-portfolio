@@ -2,15 +2,15 @@
 	<nav class="navbar">
 
 		<div class="navbar-wrap">
-			<h4>Дарья Вербняк</h4>
+			<h6>Дарья Вербняк</h6>
 
 			<ul class="links">
 				<li>
-					<a class="link" href="#">Обо мне</a>
+					<a class="link subtitle-1" href="#">Обо мне</a>
 				</li>
 
 				<li>
-					<a class="link" href="#">Проекты</a>
+					<a class="link subtitle-1" href="#">Проекты</a>
 				</li>
 			</ul>
 		</div>
