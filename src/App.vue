@@ -3,19 +3,19 @@
 		
 		<navbar />
 
-		<home-page />
+		<about-page />
 		
   </div>
 </template>
 
 <script>
 import Navbar from '@/components/Navbar.vue';
-import HomePage from '@/views/HomePage.vue';
+import AboutPage from '@/views/AboutPage.vue';
 
 export default {
 	name: 'App',
 	components: {
-		HomePage,
+		AboutPage,
 		Navbar
 	}
 }
@@ -31,6 +31,14 @@ export default {
 	text-decoration: none;
 	color: rgba(0, 0, 0, 0.87);
 	font-family: 'Lato', sans-serif;
+}
+
+.container {
+	display: grid;
+	width: 100%;
+	grid-template-columns: [left-col] 3fr [center-col] 6fr [right-col] 3fr;
+	grid-gap: 1em;
+	/* grid-template-columns: repeat(12, 1fr); */
 }
 
 h1 {

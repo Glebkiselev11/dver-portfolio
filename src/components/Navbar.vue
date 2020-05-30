@@ -27,9 +27,10 @@ export default {
 <style scoped>
 
 .navbar {
-	height: 56px;
+	height: 3.5rem;
 	box-shadow: 0px 2px 5px -1px rgba(0,0,0,0.75);
 	background: white;
+	margin-bottom: 2.75rem;
 }
 
 .navbar-wrap {
