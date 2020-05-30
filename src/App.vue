@@ -4,6 +4,8 @@
 		<navbar />
 
 		<about-page />
+
+		<footer-component />
 		
   </div>
 </template>
@@ -11,12 +13,14 @@
 <script>
 import Navbar from '@/components/Navbar.vue';
 import AboutPage from '@/views/AboutPage.vue';
+import FooterComponent from '@/components/FooterComponent.vue';
 
 export default {
 	name: 'App',
 	components: {
 		AboutPage,
-		Navbar
+		Navbar,
+		FooterComponent
 	}
 }
 </script>
