@@ -30,7 +30,7 @@ export default {
 	list-style: none;
 	text-decoration: none;
 	color: rgba(0, 0, 0, 0.87);
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Lato', sans-serif;
 }
 
 h1 {
