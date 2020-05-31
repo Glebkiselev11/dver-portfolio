@@ -112,10 +112,11 @@ h6 {
 	text-transform: uppercase;
 }
 
-.caption {
+caption {
 	font-weight: 400;
 	letter-spacing: 0.4;
 	font-size: 0.75rem;
+	text-align: left;
 }
 
 .overline {

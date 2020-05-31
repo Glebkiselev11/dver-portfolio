@@ -15,6 +15,16 @@
 				только взаимодействуя с командой
 			</h5>
 
+			<!-- Experience -->
+			<div class="experience-wrap">
+				<a href="#" class="overline experience-title">Опыт</a>
+
+				<h5 style="margin-bottom: 0.5rem">Продуктовый дизайнер в Yourtracklist</h5>
+
+				<caption>Октябрь 2019 — Апрель 2020</caption>
+
+			</div>
+
 		</div>
 
 
@@ -47,6 +57,17 @@ export default {
 
 .about-text {
 	max-width: 40rem;
+	margin-bottom: 6.5rem;
+}
+
+.experience-wrap {
+	display: flex;
+	flex-direction: column;
+}
+
+.experience-title {
+	
+	margin-bottom: 1rem;
 }
 
 </style>

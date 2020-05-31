@@ -6,11 +6,11 @@
 
 			<ul class="links">
 				<li>
-					<a class="link subtitle-1" href="#">Обо мне</a>
+					<a class="link subtitle-1 touch-target" href="#">Обо мне</a>
 				</li>
 
 				<li>
-					<a class="link subtitle-1" href="#">Проекты</a>
+					<a class="link subtitle-1 touch-target" href="#">Проекты</a>
 				</li>
 			</ul>
 		</div>
@@ -28,7 +28,7 @@ export default {
 
 .navbar {
 	height: 3.5rem;
-	box-shadow: 0px 2px 5px -1px rgba(0,0,0,0.75);
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 	background: white;
 	margin-bottom: 2.75rem;
 }
@@ -44,7 +44,15 @@ export default {
 .links {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	min-width: 170px;
+}
+
+.touch-target {
+	display: block;
+	height: 3.5rem;
+	display: flex;
+	align-items: center;
 }
 
 </style>

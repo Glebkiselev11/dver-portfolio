@@ -3,16 +3,16 @@
 		
 		<div class="contacts-wrap">
 			
-			<span class="overline">Контакты</span>
+			<span class="overline contact-title">Контакты</span>
 
-			<h5>
-				<a href="mailto:dver99design@gmail.com">dver99design@gmail.com</a>
-			</h5>
+			<div>
+				<h5 style="margin-bottom: 0.25rem">
+					<a href="mailto:dver99design@gmail.com">dver99design@gmail.com</a>
+				</h5>
 
-			<div class="socials-wrap">
-				<p>inst</p>
+				<h5>telegram: @daria_ver99</h5>
 			</div>
-
+			
 		</div>
 
 	</footer>
@@ -28,14 +28,18 @@ export default {
 
 .footer-wrap {
 	margin-top: 6.5rem;
+	margin-bottom: 12.5rem; 
 }
 
 .contacts-wrap {
 	grid-column: center-col;
-	height: 8.5rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+}
+
+.contact-title {
+	margin-bottom: 1rem;
 }
 
 </style>
