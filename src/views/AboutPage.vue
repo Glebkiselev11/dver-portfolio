@@ -21,7 +21,7 @@
 
 				<h5 style="margin-bottom: 0.5rem">Продуктовый дизайнер в Yourtracklist</h5>
 
-				<caption>Октябрь 2019 — Апрель 2020</caption>
+				<caption>Октябрь 2019 — Июль 2020</caption>
 
 			</div>
 
