@@ -1,5 +1,8 @@
 <template>
-	<nav class="navbar">
+	<nav
+		id="navbar"
+		class="navbar"
+	>
 
 		<div class="navbar-wrap">
 			<h6>Дарья Вербняк</h6>
@@ -20,17 +23,46 @@
 
 <script>
 export default {
-	name: 'navbar'
+	name: 'navbar',
+
+	data: () => ({
+		prevScrollPos: null
+	}),
+
+	created() {
+		this.prevScrollPos = window.pageYOffset;
+		document.addEventListener('scroll', this.hideNavbarOnScrollDown)
+	},
+
+	beforeDestroy() {
+		document.removeEventListener('scroll', this.hideNavbarOnScrollDown)
+	},
+
+	methods: {
+		hideNavbarOnScrollDown() {
+			const currScrollPos = window.pageYOffset;
+			if (currScrollPos < this.prevScrollPos) {
+				document.getElementById("navbar").style.top = "0";
+			} else {
+				document.getElementById("navbar").style.top = "-3.5rem";
+			}
+
+			this.prevScrollPos = currScrollPos;
+		}
+	}
 }
 </script>
 
 <style scoped>
 
 .navbar {
+	position: fixed;
+	top: 0;
+	width: 100vw;
 	height: 3.5rem;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 	background: white;
-	margin-bottom: 2.75rem;
+	transition: top 0.2s;
 }
 
 .navbar-wrap {

@@ -39,16 +39,18 @@ export default {
 
 .container {
 	display: grid;
-	margin: 0 3rem;
+	margin-top: 6rem;
+	margin-left: 3rem;
+	margin-right: 3rem;
 	grid-template-columns: [left-col] 3fr [center-col] 6fr [right-col] 3fr;
-	grid-gap: 1em;
+	grid-gap: 1rem;
 }
 
 /* ipad pro / ipad */
 @media (min-width: 600px) and (max-width: 1024px) {
 	.container {
 		grid-template-columns: [center-col] 1fr;
-		margin: 0 5rem;
+		margin: inherit 5rem;
 	}
 }
 
