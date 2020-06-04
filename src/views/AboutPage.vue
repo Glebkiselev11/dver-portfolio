@@ -17,11 +17,13 @@
 
 			<!-- Experience -->
 			<div class="experience-wrap">
-				<a href="#" class="overline experience-title">Опыт</a>
+				<sub class="overline">Опыт</sub>
 
-				<h5 style="margin-bottom: 0.5rem">Продуктовый дизайнер в Yourtracklist</h5>
+				<h5 class="experience-name">Продуктовый дизайнер в Yourtracklist</h5>
 
 				<caption>Октябрь 2019 — Июль 2020</caption>
+
+				<a class="body-3" href="#">Смотреть проект в портфолио</a>
 
 			</div>
 
@@ -51,7 +53,7 @@ export default {
 	width: 20rem;
 	height: 20rem;
 	border-radius: 50%;
-	margin-bottom: 4rem;
+	margin-bottom: 3rem;
 	background: rgb(139, 139, 139);
 }
 
@@ -65,8 +67,11 @@ export default {
 	flex-direction: column;
 }
 
-.experience-title {
-	
+.experience-wrap > caption {
+	margin-bottom: 1rem;
+}
+
+.experience-name {
 	margin-bottom: 1rem;
 }
 

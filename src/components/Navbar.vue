@@ -5,15 +5,15 @@
 	>
 
 		<div class="navbar-wrap">
-			<h6>Дарья Вербняк</h6>
+			<h6 class="logo">Дарья Вербняк</h6>
 
-			<ul class="links">
+			<ul class="tabs">
 				<li>
-					<a class="link subtitle-1 touch-target" href="#">Обо мне</a>
+					<a class="tab btn touch-target" href="#">Обо мне</a>
 				</li>
 
 				<li>
-					<a class="link subtitle-1 touch-target" href="#">Проекты</a>
+					<a class="tab btn touch-target" href="#">Проекты</a>
 				</li>
 			</ul>
 		</div>
@@ -69,11 +69,19 @@ export default {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	margin: auto 3em;
+	margin: auto 8.75rem;
 	height: inherit;
 }
 
-.links {
+/* ipad pro / ipad */
+@media (min-width: 600px) and (max-width: 1024px) {
+	.navbar-wrap {
+		margin: auto 5.5rem;
+	}
+}
+
+
+.tabs {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;

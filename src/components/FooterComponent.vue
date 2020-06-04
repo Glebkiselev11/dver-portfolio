@@ -3,7 +3,7 @@
 		
 		<div class="contacts-wrap">
 			
-			<span class="overline contact-title">Контакты</span>
+			<sub class="overline">Контакты</sub>
 
 			<div>
 				<h5 style="margin-bottom: 0.25rem">
@@ -36,10 +36,6 @@ export default {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-}
-
-.contact-title {
-	margin-bottom: 1rem;
 }
 
 </style>

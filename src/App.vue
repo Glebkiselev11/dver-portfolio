@@ -34,12 +34,17 @@ export default {
 	list-style: none;
 	text-decoration: none;
 	color: rgba(0, 0, 0, 0.87);
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
+}
+
+a {
+	text-decoration: underline;
+	text-decoration-color: rgba(0, 0, 0, 0.87);
 }
 
 .container {
 	display: grid;
-	margin-top: 6rem;
+	margin-top: 10.5rem;
 	margin-left: 3rem;
 	margin-right: 3rem;
 	grid-template-columns: [left-col] 3fr [center-col] 6fr [right-col] 3fr;
@@ -50,7 +55,8 @@ export default {
 @media (min-width: 600px) and (max-width: 1024px) {
 	.container {
 		grid-template-columns: [center-col] 1fr;
-		margin: inherit 5rem;
+		margin-left: 5.5rem;
+		margin-right: 5.5rem;
 	}
 }
 
@@ -115,6 +121,12 @@ h6 {
 	font-size: 0.875rem;
 }
 
+.body-3 {
+	font-weight: 500;
+	letter-spacing: 0.25;
+	font-size: 1rem;
+}
+
 .btn {
 	font-weight: 500;
 	letter-spacing: 1.25;
@@ -134,11 +146,16 @@ caption {
 	letter-spacing: 1.5;
 	font-size: 0.625rem;
 	text-transform: uppercase;
+	margin-bottom: 1.5rem;
 }
 
+.tab {
+	text-decoration: none;
+}
 
-.link:hover {
+.tab:hover {
 	color: rgba(0, 0, 0, 0.6);
+	cursor: pointer;
 }
 
 </style>
