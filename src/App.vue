@@ -114,6 +114,7 @@ h6 {
 .body-1 {
 	font-weight: 400;
 	letter-spacing: 0.5;
+	line-height: 170%;
 	font-size: 1rem;
 }
 

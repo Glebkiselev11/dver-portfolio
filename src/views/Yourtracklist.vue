@@ -21,6 +21,8 @@
 			
 			<prev-section />
 
+			<about-project />
+
 		</div>
 		
 	</div>
@@ -28,11 +30,13 @@
 
 <script>
 import PrevSection from '@/components/Yourtracklist/PrevSection.vue';
+import AboutProject from '@/components/Yourtracklist/AboutProject.vue';
 
 export default {
 	name: 'yourtracklist',
 	components: {
-		PrevSection
+		PrevSection,
+		AboutProject
 	},
 
 	data: () => ({
