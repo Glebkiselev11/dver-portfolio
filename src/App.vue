@@ -25,13 +25,17 @@ export default {
 
 <style>
 
+:root {
+  --black: rgba(0, 0, 0, 0.87);
+}
+
 /* Material design style */
 * {
 	margin: 0;
 	padding: 0;
 	list-style: none;
 	text-decoration: none;
-	color: rgba(0, 0, 0, 0.87);
+	color: var(--black);
 	font-family: 'Roboto', sans-serif;
 }
 
