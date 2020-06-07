@@ -116,6 +116,8 @@ h6 {
 	letter-spacing: 0.5;
 	line-height: 170%;
 	font-size: 1rem;
+	display: block;
+	margin-bottom: 1rem;
 }
 
 .body-2 {
@@ -159,6 +161,20 @@ caption {
 .tab:hover {
 	color: rgba(0, 0, 0, 0.6);
 	cursor: pointer;
+}
+
+
+.incut-block {
+	background: rgba(0, 0, 0, 0.048);
+	padding: 2rem 3.5rem;
+}
+
+.semantic-part {
+	margin-top: 2rem;
+}
+
+.semantic-part > h6 {
+	margin-bottom: 1rem;
 }
 
 </style>

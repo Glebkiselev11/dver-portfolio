@@ -23,6 +23,8 @@
 
 			<about-project />
 
+			<concept />
+
 		</div>
 		
 	</div>
@@ -31,12 +33,14 @@
 <script>
 import PrevSection from '@/components/Yourtracklist/PrevSection.vue';
 import AboutProject from '@/components/Yourtracklist/AboutProject.vue';
+import Concept from '@/components/Yourtracklist/Concept.vue';
 
 export default {
 	name: 'yourtracklist',
 	components: {
 		PrevSection,
-		AboutProject
+		AboutProject,
+		Concept
 	},
 
 	data: () => ({

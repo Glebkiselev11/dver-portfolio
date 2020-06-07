@@ -12,19 +12,19 @@
 
 		<h6 class="problem-title">Проблемы yourtracklist</h6>
 
-		<span class="body-1 problem-item">С увеличением аудитории фидбек от пользователей не увеличивается</span>
+		<span class="body-1">С увеличением аудитории фидбек от пользователей не увеличивается</span>
 
-		<span class="body-1 problem-item">
+		<span class="body-1">
 			Трудная навигация по контенту (15к постов). Теги по жанрам<br>
 			невозможно проставить ко всем старым публикациям
 		</span>
 
-		<span class="body-1 problem-item">
+		<span class="body-1">
 			Сложно собрать всех исполнителей в базу (возможность расширения<br>
 			имеющего меню ограничены)
 		</span>
 
-		<span class="body-1 problem-item">
+		<span class="body-1">
 			Количество плейлистов, которое вк позволяет создавать, всего 2к.<br>
 			Приходится удалять старые
 		</span>
@@ -64,9 +64,5 @@ export default {
 	margin-bottom: 1rem;
 }
 
-.problem-item {
-	margin-bottom: 1rem;
-	display: block;
-}
 
 </style>

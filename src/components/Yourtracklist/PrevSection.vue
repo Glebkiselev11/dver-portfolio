@@ -17,7 +17,7 @@
 		</div>
 
 
-		<div class="my-role">
+		<div class="incut-block my-role">
 			<h6>Моя роль</h6>
 			<span class="description body-1">
 				<b>Формулирование гипотез</b> (кто будет использовать продукт, какие
@@ -60,8 +60,6 @@ export default {
 
 .my-role {
 	margin-top: 4.5rem;
-	background: rgba(0, 0, 0, 0.048);
-	padding: 2rem 3.5rem;
 }
 
 .description {
