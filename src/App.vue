@@ -3,7 +3,7 @@
 		
 		<navbar />
 
-		<about-page />
+		<router-view/>
 
 		<footer-component />
 		
@@ -12,13 +12,11 @@
 
 <script>
 import Navbar from '@/components/Navbar.vue';
-import AboutPage from '@/views/AboutPage.vue';
 import FooterComponent from '@/components/FooterComponent.vue';
 
 export default {
 	name: 'App',
 	components: {
-		AboutPage,
 		Navbar,
 		FooterComponent
 	}
