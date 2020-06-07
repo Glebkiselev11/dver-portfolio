@@ -20,6 +20,11 @@ const router = new Router({
       path: '/',
       name: 'about-page',
       component: () => import('@/views/AboutPage.vue')
+		},
+		{
+      path: '/portfolio',
+      name: 'yourtracklist',
+      component: () => import('@/views/Yourtracklist.vue')
     }
   ]
 });

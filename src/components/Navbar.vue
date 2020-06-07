@@ -9,11 +9,11 @@
 
 			<ul class="tabs">
 				<li>
-					<a class="tab btn touch-target" href="#">Обо мне</a>
+					<router-link class="tab btn touch-target" to="/">Обо мне</router-link>
 				</li>
 
 				<li>
-					<a class="tab btn touch-target" href="#">Проекты</a>
+					<router-link class="tab btn touch-target" to="/portfolio">Портфолио</router-link>
 				</li>
 			</ul>
 		</div>
@@ -85,7 +85,7 @@ export default {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	min-width: 170px;
+	min-width: 11.5rem;
 }
 
 .touch-target {
