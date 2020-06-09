@@ -51,14 +51,29 @@
 				музыку.
 			</span>
 		</div>
+
+
+		<app-image-gallery 
+			:images="[
+				'https://sun9-46.userapi.com/c858520/v858520200/1aff4f/9J_vv1iuqps.jpg',
+				'https://sun9-21.userapi.com/c858520/v858520200/1aff59/v4eD9iqOGc8.jpg',
+				'https://sun9-19.userapi.com/c858520/v858520200/1aff63/t_ofE14bS0A.jpg'
+			]"
+		/>
 		
 
 	</section>
 </template>
 
 <script>
+import AppImageGallery from '../AppImageGallery';
+
 export default {
-	name: 'concept'
+	name: 'concept',
+
+	components: {
+		AppImageGallery
+	}
 }
 </script>
 
