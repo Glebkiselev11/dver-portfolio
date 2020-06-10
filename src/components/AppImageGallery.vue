@@ -46,7 +46,6 @@ export default {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	box-shadow: 0px 0px 2px 0px rgba(189, 189, 189, 0.932);
 }
 
 .image-item:hover {

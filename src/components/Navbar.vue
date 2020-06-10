@@ -13,7 +13,7 @@
 				</li>
 
 				<li>
-					<router-link class="tab btn touch-target" to="/portfolio">Портфолио</router-link>
+					<router-link class="tab btn touch-target touch-target--active" to="/portfolio">Портфолио</router-link>
 				</li>
 			</ul>
 		</div>
@@ -61,11 +61,12 @@ export default {
 	width: 100vw;
 	height: 3.5rem;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-	background: white;
+	background-color: var(--primary-main);
 	transition: top 0.2s;
 }
 
 .navbar-wrap {
+	background-color: var(--primary-main);
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -80,19 +81,40 @@ export default {
 	}
 }
 
+.logo {
+	color: var(--white-font);
+}
 
 .tabs {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
 	min-width: 11.5rem;
 }
 
 .touch-target {
+	padding: 0 1rem;
 	display: block;
 	height: 3.5rem;
 	display: flex;
 	align-items: center;
+	color: var(--white-font);
+}
+
+.touch-target--active {
+	color: var(--white-font);
+	border-bottom: 2px solid var(--white-font);
+}
+
+
+.touch-target:hover {
+	background-color: rgba(0, 0, 0, 0.92);
+	color: var(--white-font);
+}
+
+.touch-target:focus {
+	background-color: rgba(0, 0, 0, 0.76);
+	color: var(--white-font);
 }
 
 </style>

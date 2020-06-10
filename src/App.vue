@@ -26,7 +26,17 @@ export default {
 <style>
 
 :root {
-  --black: rgba(0, 0, 0, 0.87);
+  --black-font: rgba(0, 0, 0, 0.87);
+	--white-font: #ffffff;
+
+	--primary-main: #212121;
+	--primary-light: #484848;
+	--primary-dark: #000000;
+
+	--secondary-main: #fafafa;
+	--secondary-light: #ffffff;
+	--secondary-dark: #c7c7c7;
+
 }
 
 /* Material design style */
@@ -35,8 +45,13 @@ export default {
 	padding: 0;
 	list-style: none;
 	text-decoration: none;
-	color: var(--black);
+	color: var(--black-font);
 	font-family: 'Roboto', sans-serif;
+	background-color: transparent;
+}
+
+html {
+	background-color: var(--secondary-main);
 }
 
 a {
@@ -153,6 +168,7 @@ caption {
 	text-transform: uppercase;
 	margin-bottom: 1.5rem;
 }
+
 
 .tab {
 	text-decoration: none;

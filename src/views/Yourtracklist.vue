@@ -71,7 +71,7 @@ export default {
 	border-left: 0.125rem solid rgba(0, 0, 0, 0.164);
 }
 .anchor-item--active {
-	border-left: 0.125rem solid var(--black);
+	border-left: 0.125rem solid var(--black-font);
 }
 
 .anchor-link {

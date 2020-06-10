@@ -38,6 +38,11 @@ export default {
 
 <style scoped>
 
+.prev-section {
+	height: 100vh;
+	background-color: var(--black-main);
+}
+
 .title {
 	margin-bottom: .75rem;
 }
