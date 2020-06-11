@@ -9,11 +9,22 @@
 
 			<ul class="tabs">
 				<li>
-					<router-link class="tab btn touch-target" to="/">Обо мне</router-link>
+					<router-link
+						class="tab btn touch-target"
+						active-class="touch-target--active"
+						exact
+						to="/"
+						v-text="'Обо мне'"
+					/>
 				</li>
 
 				<li>
-					<router-link class="tab btn touch-target touch-target--active" to="/portfolio">Портфолио</router-link>
+					<router-link
+						class="tab btn touch-target"
+						active-class="touch-target--active"
+						to="/portfolio"
+						v-text="'Портфолио'"
+					/>
 				</li>
 			</ul>
 		</div>

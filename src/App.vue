@@ -61,9 +61,9 @@ a {
 
 .container {
 	display: grid;
-	margin-top: 10.5rem;
-	margin-left: 3rem;
-	margin-right: 3rem;
+	padding-top: 10.5rem;
+	padding-left: 3rem;
+	padding-right: 3rem;
 	grid-template-columns: [left-col] 3fr [center-col] 6fr [right-col] 3fr;
 	grid-gap: 1rem;
 }

@@ -1,33 +1,43 @@
 <template>
-	<div class="container">
-		
-		<!-- Portfolio Left Navigation Bar -->
-		<ul class="portfolio-nav">
-			<li
-				v-for="(anchor, index) of navAnchors"
-				:key="index"
-				class="anchor-item"
-			>
-				<a
-					href="#"
-					v-text="anchor"
-					class="anchor-link"
-				/>
-			</li>
-		</ul>
+	<div>
 
-		<!-- Center Content -->
-		<div class="portfolio-content">
+		<!-- Prev-content -->
+		<prev-section />
+
 			
-			<prev-section />
 
-			<about-project />
+		<div class="container">
 
-			<concept />
+			
+			<!-- Portfolio Left Navigation Bar -->
+			<ul class="portfolio-nav">
+				<li
+					v-for="(anchor, index) of navAnchors"
+					:key="index"
+					class="anchor-item"
+				>
+					<a
+						href="#"
+						v-text="anchor"
+						class="anchor-link"
+					/>
+				</li>
+			</ul>
 
+			<!-- Center Content -->
+			<div class="portfolio-content">
+				
+				<about-project />
+
+				<concept />
+
+			</div>
+			
 		</div>
-		
+
 	</div>
+
+	
 </template>
 
 <script>
