@@ -42,11 +42,12 @@ export default {
 
 .container {
 	background-color: var(--primary-main);
-	height: 90vh;
+	height: 100vh;
 }
 
 .prev-section {
 	grid-column: center-col;
+	align-self: center;
 }
 
 .title {

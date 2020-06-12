@@ -4,11 +4,8 @@
 		<!-- Prev-content -->
 		<prev-section />
 
-			
+		<div class="container main-container">
 
-		<div class="container">
-
-			
 			<!-- Portfolio Left Navigation Bar -->
 			<ul class="portfolio-nav">
 				<li
@@ -70,12 +67,20 @@ export default {
 
 <style scoped>
 
+.main-container {
+	padding-top: 7rem;
+}
+
 /* Left nav bar */
 .portfolio-nav {
 	grid-column: left-col;
+	position: sticky;
+	top: 5rem;
 	width: 100%;
+	max-height: 20rem;
 	display: flex;
 	flex-direction: column;
+	
 }
 .anchor-item {
 	border-left: 0.125rem solid rgba(0, 0, 0, 0.164);

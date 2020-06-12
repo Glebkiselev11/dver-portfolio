@@ -47,9 +47,6 @@ export default {
 
 <style scoped>
 
-.about-project {
-	margin-top: 4.5rem;
-}
 
 .title {
 	margin-bottom: 2.5rem;

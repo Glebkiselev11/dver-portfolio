@@ -61,7 +61,6 @@ a {
 
 .container {
 	display: grid;
-	padding-top: 10.5rem;
 	padding-left: 3rem;
 	padding-right: 3rem;
 	grid-template-columns: [left-col] 3fr [center-col] 6fr [right-col] 3fr;
