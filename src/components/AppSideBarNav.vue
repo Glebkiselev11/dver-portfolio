@@ -13,7 +13,6 @@
 				:to="anchor.link"
 				v-text="anchor.title"
 				class="anchor-link"
-				
 			/>
 		</li>
 	</ul>
@@ -28,11 +27,6 @@ export default {
 			type: Array,
 			required: true
 		}
-	},
-
-	created() {
-		console.log(this.$route.fullPath);
-		
 	}
 };
 </script>

@@ -16,6 +16,8 @@
 				
 				<about-project id="about-project" />
 
+				<h4 class="title">Процесс работы</h4>
+
 				<concept id="concept" />
 
 			</div>
@@ -64,6 +66,10 @@ export default {
 	padding-top: 7rem;
 }
 
+.title {
+	margin-top: 5rem;
+	margin-bottom: 2.5rem;
+}
 
 /* Content */
 .portfolio-content {

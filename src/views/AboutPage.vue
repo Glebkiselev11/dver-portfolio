@@ -47,6 +47,7 @@ export default {
 .content {
 	grid-column: center-col;
 	width: 100%;
+	margin-top: 10rem;
 }
 
 .image-wrap {
@@ -58,7 +59,6 @@ export default {
 }
 
 .about-text {
-	max-width: 40rem;
 	margin-bottom: 6.5rem;
 }
 

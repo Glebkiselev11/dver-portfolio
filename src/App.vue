@@ -61,10 +61,9 @@ a {
 
 .container {
 	display: grid;
-	padding-left: 3rem;
-	padding-right: 3rem;
-	grid-template-columns: [left-col] 3fr [center-col] 6fr [right-col] 3fr;
-	grid-gap: 1rem;
+	justify-content: center;
+	grid-template-columns: [left-col] 18rem [center-col] 41rem [right-col] 18rem;
+	grid-gap: 10rem;
 }
 
 /* ipad pro / ipad */
@@ -75,6 +74,8 @@ a {
 		margin-right: 5.5rem;
 	}
 }
+
+
 
 
 h1 {
@@ -105,6 +106,7 @@ h5 {
 	font-weight: 400;
 	letter-spacing: 0;
 	font-size: 1.5rem;
+	line-height: 150%;
 }
 
 h6 {
@@ -131,13 +133,13 @@ h6 {
 	line-height: 170%;
 	font-size: 1rem;
 	display: block;
-	margin-bottom: 1rem;
 }
 
 .body-2 {
 	font-weight: 400;
 	letter-spacing: 0.25;
 	font-size: 0.875rem;
+	display: block;
 }
 
 .body-3 {
@@ -190,6 +192,59 @@ caption {
 
 .semantic-part > h6 {
 	margin-bottom: 1rem;
+}
+
+/* Divider */
+hr {
+	border-color: rgba(0,0,0,.12);
+	margin: 2.5rem 0;
+	border-width: 1px 0 0;
+}
+
+
+/* Margins */
+.mt-1 {
+	margin-top: 0.5rem;
+}
+.mt-2 {
+	margin-top: 1rem;
+}
+.mt-3 {
+	margin-top: 1.5rem;
+}
+.mt-4 {
+	margin-top: 2rem;
+}
+.mt-5 {
+	margin-top: 2.5rem;
+}
+.mt-6 {
+	margin-top: 3rem;
+}
+.mt-7 {
+	margin-top: 3.5rem;
+}
+
+.mb-1 {
+	margin-bottom: 0.5rem;
+}
+.mb-2 {
+	margin-bottom: 1rem;
+}
+.mb-3 {
+	margin-bottom: 1.5rem;
+}
+.mb-4 {
+	margin-bottom: 2rem;
+}
+.mb-5 {
+	margin-bottom: 2.5rem;
+}
+.mb-6 {
+	margin-bottom: 3rem;
+}
+.mb-7 {
+	margin-bottom: 3.5rem;
 }
 
 </style>
