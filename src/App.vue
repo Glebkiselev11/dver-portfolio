@@ -113,6 +113,7 @@ h6 {
 	font-weight: 500;
 	letter-spacing: 0.15;
 	font-size: 1.25rem;
+	line-height: 160%;
 }
 
 .subtitle-1 {
@@ -187,11 +188,11 @@ caption {
 }
 
 .semantic-part {
-	margin-top: 2rem;
+	margin-top: 2.5rem;
 }
 
 .semantic-part > h6 {
-	margin-bottom: 1rem;
+	margin-bottom: 1.5rem;
 }
 
 /* Divider */

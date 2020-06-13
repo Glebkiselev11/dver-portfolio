@@ -134,18 +134,23 @@
 			<span class="body-2 mb-2">Этап Delivery. Запуск решения</span>
 		</div>
 
+		<app-single-image-display 
+			imageLink="https://sun9-27.userapi.com/c857416/v857416234/21134f/3EYm-xJ2nrc.jpg"
+		/>
 	
 	</section>
 </template>
 
 <script>
 import AppImageGallery from '../AppImageGallery';
+import AppSingleImageDisplay from '../AppSingleImageDisplay';
 
 export default {
 	name: 'concept',
 
 	components: {
-		AppImageGallery
+		AppImageGallery,
+		AppSingleImageDisplay
 	}
 }
 </script>
