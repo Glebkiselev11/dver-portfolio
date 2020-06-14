@@ -22,6 +22,10 @@
 
 				<discovery id="discovery" />
 
+				<define id="define" />
+
+				<develop id="develop" />
+
 			</div>
 			
 		</div>
@@ -38,6 +42,8 @@ import PrevSection from '@/components/Yourtracklist/PrevSection.vue';
 import AboutProject from '@/components/Yourtracklist/AboutProject.vue';
 import Concept from '@/components/Yourtracklist/Concept.vue';
 import Discovery from '@/components/Yourtracklist/Discovery.vue';
+import Define from '@/components/Yourtracklist/Define.vue';
+import Develop from '@/components/Yourtracklist/Develop.vue';
 
 export default {
 	name: 'yourtracklist',
@@ -46,7 +52,9 @@ export default {
 		AboutProject,
 		Concept,
 		AppSideBarNav,
-		Discovery
+		Discovery,
+		Define,
+		Develop
 	},
 
 	data: () => ({
@@ -54,8 +62,8 @@ export default {
 			{ title: 'О проекте', link: '/portfolio#about-project' },
 			{ title: 'Концепт', link: '/portfolio#concept' },
 			{ title: 'Поиск проблем/идей/гипотез', link: '/portfolio#discovery' },
-			{ title: 'Синтез', link: '/portfolio#' },
-			{ title: 'Создание прототипа', link: '/portfolio#' },
+			{ title: 'Синтез', link: '/portfolio#define' },
+			{ title: 'Создание прототипа', link: '/portfolio#develop' },
 			{ title: 'Дизайн', link: '/portfolio#' },
 			{ title: 'Итог', link: '/portfolio#' },
 			{ title: 'Чего можно было избежать', link: '/portfolio#' }

@@ -183,7 +183,7 @@ caption {
 
 
 .incut-block {
-	background: rgba(0, 0, 0, 0.048);
+	background: var(--secondary-dark);
 	padding: 2rem 3.5rem;
 }
 
