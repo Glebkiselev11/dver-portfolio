@@ -28,6 +28,8 @@
 
 				<deliver id="deliver" />
 
+				<conclusion id="conclusion" />
+
 			</div>
 			
 		</div>
@@ -47,6 +49,7 @@ import Discovery from '@/components/Yourtracklist/Discovery.vue';
 import Define from '@/components/Yourtracklist/Define.vue';
 import Develop from '@/components/Yourtracklist/Develop.vue';
 import Deliver from '@/components/Yourtracklist/Deliver.vue';
+import Conclusion from '@/components/Yourtracklist/Conclusion.vue'
 
 export default {
 	name: 'yourtracklist',
@@ -58,7 +61,8 @@ export default {
 		Discovery,
 		Define,
 		Develop,
-		Deliver
+		Deliver,
+		Conclusion
 	},
 
 	data: () => ({
@@ -69,8 +73,7 @@ export default {
 			{ title: 'Синтез', link: '/portfolio#define' },
 			{ title: 'Создание прототипа', link: '/portfolio#develop' },
 			{ title: 'Тестирование прототипа', link: '/portfolio#deliver' },
-			{ title: 'Итог', link: '/portfolio#' },
-			{ title: 'Чего можно было избежать', link: '/portfolio#' }
+			{ title: 'Итог', link: '/portfolio#conclusion' }
 		]
 	})
 }
