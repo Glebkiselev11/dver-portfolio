@@ -85,10 +85,12 @@ export default {
 	top: 50%;
 	left: 50%;
 	cursor: zoom-out;
+	z-index: 1;
 }
 
 .zoomed-image {
 	width: 100%;
+	
 }
 
 </style>

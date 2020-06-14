@@ -140,6 +140,7 @@ h6 {
 	font-weight: 400;
 	letter-spacing: 0.25;
 	font-size: 0.875rem;
+	line-height: 160%;
 	display: block;
 }
 

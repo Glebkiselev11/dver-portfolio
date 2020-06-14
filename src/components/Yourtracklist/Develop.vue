@@ -95,7 +95,7 @@
 		<app-image-gallery 
 			:images="[
 				'https://sun9-5.userapi.com/c856016/v856016910/246c6c/jLevusFoy1w.jpg',
-				'https://sun9-48.userapi.com/c856016/v856016910/246c76/TIPSeWWdMsw.jpg',
+				'https://sun9-24.userapi.com/c856016/v856016910/246c9d/4-oNq3Vt0jI.jpg',
 				'https://sun9-26.userapi.com/c856016/v856016910/246c80/GGFxYD1JDjs.jpg',
 				'https://sun9-10.userapi.com/c856016/v856016910/246c8a/J3vwiS_2KVI.jpg',
 				'https://sun9-16.userapi.com/c856016/v856016910/246c94/b_yYs9pfcfE.jpg'

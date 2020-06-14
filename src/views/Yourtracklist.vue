@@ -26,6 +26,8 @@
 
 				<develop id="develop" />
 
+				<deliver id="deliver" />
+
 			</div>
 			
 		</div>
@@ -44,6 +46,7 @@ import Concept from '@/components/Yourtracklist/Concept.vue';
 import Discovery from '@/components/Yourtracklist/Discovery.vue';
 import Define from '@/components/Yourtracklist/Define.vue';
 import Develop from '@/components/Yourtracklist/Develop.vue';
+import Deliver from '@/components/Yourtracklist/Deliver.vue';
 
 export default {
 	name: 'yourtracklist',
@@ -54,7 +57,8 @@ export default {
 		AppSideBarNav,
 		Discovery,
 		Define,
-		Develop
+		Develop,
+		Deliver
 	},
 
 	data: () => ({
@@ -64,7 +68,7 @@ export default {
 			{ title: 'Поиск проблем/идей/гипотез', link: '/portfolio#discovery' },
 			{ title: 'Синтез', link: '/portfolio#define' },
 			{ title: 'Создание прототипа', link: '/portfolio#develop' },
-			{ title: 'Дизайн', link: '/portfolio#' },
+			{ title: 'Тестирование прототипа', link: '/portfolio#deliver' },
 			{ title: 'Итог', link: '/portfolio#' },
 			{ title: 'Чего можно было избежать', link: '/portfolio#' }
 		]
