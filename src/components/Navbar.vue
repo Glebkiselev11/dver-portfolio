@@ -71,6 +71,7 @@ export default {
 	top: 0;
 	width: 100vw;
 	height: 3.5rem;
+	z-index: 1;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 	background-color: var(--primary-main);
 	transition: top 0.2s;

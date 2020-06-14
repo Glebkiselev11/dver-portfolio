@@ -32,11 +32,6 @@
 	</section>
 </template>
 
-<script>
-export default {
-	name: 'prev-section'
-}
-</script>
 
 <style scoped>
 

@@ -141,20 +141,6 @@
 	</section>
 </template>
 
-<script>
-import AppImageGallery from '../AppImageGallery';
-import AppSingleImageDisplay from '../AppSingleImageDisplay';
-
-export default {
-	name: 'concept',
-
-	components: {
-		AppImageGallery,
-		AppSingleImageDisplay
-	}
-}
-</script>
-
 <style scoped>
 
 .title-h5 {
