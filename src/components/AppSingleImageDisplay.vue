@@ -6,6 +6,12 @@
 			@click="zoom"
 		>
 
+		<span
+			v-if="description"
+			class="body-2 mt-2"
+			v-text="description"
+		/>
+
 		<div
 			v-show="isZoom"
 			class="zoomed-content"
@@ -29,6 +35,11 @@ export default {
 		imageLink: {
 			type: String,
 			required: true
+		},
+
+		description: {
+			type: String,
+			default: null
 		}
 	},
 
@@ -73,6 +84,7 @@ export default {
 	width: 80%;
 	top: 50%;
 	left: 50%;
+	cursor: zoom-out;
 }
 
 .zoomed-image {

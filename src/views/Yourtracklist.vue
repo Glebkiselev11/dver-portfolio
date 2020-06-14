@@ -20,6 +20,8 @@
 
 				<concept id="concept" />
 
+				<discovery id="discovery" />
+
 			</div>
 			
 		</div>
@@ -35,6 +37,7 @@ import AppSideBarNav from '@/components/AppSideBarNav.vue';
 import PrevSection from '@/components/Yourtracklist/PrevSection.vue';
 import AboutProject from '@/components/Yourtracklist/AboutProject.vue';
 import Concept from '@/components/Yourtracklist/Concept.vue';
+import Discovery from '@/components/Yourtracklist/Discovery.vue';
 
 export default {
 	name: 'yourtracklist',
@@ -42,14 +45,15 @@ export default {
 		PrevSection,
 		AboutProject,
 		Concept,
-		AppSideBarNav
+		AppSideBarNav,
+		Discovery
 	},
 
 	data: () => ({
 		navAnchors: [
 			{ title: 'О проекте', link: '/portfolio#about-project' },
 			{ title: 'Концепт', link: '/portfolio#concept' },
-			{ title: 'Поиск проблем/идей/гипотез', link: '/portfolio#' },
+			{ title: 'Поиск проблем/идей/гипотез', link: '/portfolio#discovery' },
 			{ title: 'Синтез', link: '/portfolio#' },
 			{ title: 'Создание прототипа', link: '/portfolio#' },
 			{ title: 'Дизайн', link: '/portfolio#' },
