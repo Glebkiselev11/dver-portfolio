@@ -93,6 +93,13 @@ export default {
 	}
 }
 
+/* phone */
+@media (min-width: 100px) and (max-width: 599px) {
+	.navbar-wrap {
+		margin: auto 1rem;
+	}
+}
+
 .logo {
 	color: var(--white-font);
 }

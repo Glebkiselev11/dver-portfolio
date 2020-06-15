@@ -34,19 +34,10 @@
 	</div>
 </template>
 
-<script>
-
-export default {
-	name: 'about-page',
-
-}
-</script>
-
 <style scoped>
 
 .content {
 	grid-column: center-col;
-	width: 100%;
 	margin-top: 10rem;
 }
 
@@ -56,6 +47,8 @@ export default {
 	border-radius: 50%;
 	margin-bottom: 3rem;
 	background: rgb(139, 139, 139);
+	background-image: url('../assets/avatar-black.jpg');
+	background-size: contain;
 }
 
 .about-text {
@@ -73,6 +66,24 @@ export default {
 
 .experience-name {
 	margin-bottom: 1rem;
+}
+
+/* phone */
+@media (max-width: 599px) {
+	.image-wrap {
+		margin-left: auto;
+		margin-right: auto;
+		height: 17.5rem;
+		width: 17.5rem;
+	}
+}
+
+/* small phone */
+@media (min-width: 100px) and (max-width: 359px) {
+	.image-wrap {
+		height: 15rem;
+		width: 15rem;
+	}
 }
 
 </style>

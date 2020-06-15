@@ -7,7 +7,8 @@
 		<div class="container main-container">
 
 			<!-- Portfolio Left Navigation Bar -->
-			<app-side-bar-nav 
+			<app-side-bar-nav
+				class="side-bar"
 				:navAnchors="navAnchors"
 			/>
 
@@ -85,6 +86,10 @@ export default {
 	padding-top: 7rem;
 }
 
+.side-bar {
+	grid-column: [left-col];
+}
+
 .title {
 	margin-top: 5rem;
 	margin-bottom: 2.5rem;
@@ -94,6 +99,14 @@ export default {
 .portfolio-content {
 	grid-column: center-col;
 	width: 100%;
+}
+
+
+/* ipad pro / ipad */
+@media (max-width: 1024px) {
+	.side-bar {
+		display: none;
+	}
 }
 
 </style>

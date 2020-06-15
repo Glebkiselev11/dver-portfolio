@@ -73,12 +73,53 @@ a {
 	grid-gap: 10rem;
 }
 
+/* large laptop */
+@media (max-width: 1670px) {
+	.container {
+		grid-template-columns: [left-col] 2fr [center-col] 41rem [right-col] 2fr;
+		grid-gap: 2rem;
+		padding-left: 3.5rem;
+		padding-right: 3.5rem;
+	}
+}
+
+@media (max-width: 1499px) {
+	.container {
+		grid-template-columns: [left-col] 2fr [center-col] 41rem [right-col] 1fr;
+		grid-gap: 3rem;
+	}
+}
+
+@media (max-width: 1320px) {
+	.container {
+		grid-template-columns: [left-col] 2fr [center-col] 41rem [right-col] 0.5fr;
+		grid-gap: 4rem;
+	}
+}
+
+@media (max-width: 1250px) {
+	.container {
+		grid-template-columns: [left-col] 10fr [center-col] 41rem [right-col] 0.5fr;
+		grid-gap: 1rem;
+	}
+}
+
+
 /* ipad pro / ipad */
 @media (min-width: 600px) and (max-width: 1024px) {
 	.container {
 		grid-template-columns: [center-col] 1fr;
-		padding-left: 5.5rem;
-		padding-right: 5.5rem;
+		padding-left: 5.3rem;
+		padding-right: 5.3rem;
+	}
+}
+
+/* phone */
+@media (min-width: 100px) and (max-width: 599px) {
+	.container {
+		grid-template-columns: [center-col] 1fr;
+		padding-left: 1rem;
+		padding-right: 1rem;
 	}
 }
 
