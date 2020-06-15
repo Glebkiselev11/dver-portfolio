@@ -3,7 +3,10 @@
 		
 		<navbar />
 
-		<router-view/>
+		<main class="main">
+			<router-view/>
+		</main>
+		
 
 		<footer-component />
 		
@@ -54,6 +57,10 @@ html {
 	background-color: var(--secondary-main);
 }
 
+.main {
+	min-height: 70vh;
+}
+
 a {
 	text-decoration: underline;
 	text-decoration-color: rgba(0, 0, 0, 0.87);
@@ -70,8 +77,8 @@ a {
 @media (min-width: 600px) and (max-width: 1024px) {
 	.container {
 		grid-template-columns: [center-col] 1fr;
-		margin-left: 5.5rem;
-		margin-right: 5.5rem;
+		padding-left: 5.5rem;
+		padding-right: 5.5rem;
 	}
 }
 
