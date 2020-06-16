@@ -18,7 +18,7 @@
 			</span>
 		</div>
 
-		<app-single-image-display
+		<single-image
 			imageLink="https://sun9-56.userapi.com/c857228/v857228493/1badad/y4-_utn22W0.jpg"
 			description="Из комментариев получили полезные инсайты (https://vk.com/wall-86451899_42168)"
 		/>
@@ -47,7 +47,7 @@
 			С помощью фреймворка <b>JTBD</b> выявили <b>job stories (ситуации, мотивы, ожидаемые цели)</b> пользователей
 		</span>
 
-		<app-single-image-display
+		<single-image
 			imageLink="https://sun9-13.userapi.com/c857228/v857228493/1badd3/_g7QhsMbkAA.jpg"
 		/>
 

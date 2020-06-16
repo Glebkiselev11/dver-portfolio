@@ -193,27 +193,27 @@
 		</div>
 
 
-		<app-single-image-display 
+		<single-image 
 			imageLink="https://sun9-45.userapi.com/c856520/v856520481/1b67de/LTU8eVtYRs8.jpg"
 			description="Раздел “Релизы”"
 		/>
 
-		<app-single-image-display 
+		<single-image 
 			imageLink="https://sun9-46.userapi.com/c856520/v856520481/1b67e8/DHoGMJdM-TU.jpg"
 			description="Раздел “Видео”"
 		/>
 
-		<app-single-image-display 
+		<single-image 
 			imageLink="https://sun9-16.userapi.com/c856520/v856520481/1b67fc/1O31Y78n0lk.jpg"
 			description="Страница релиза"
 		/>
 
-		<app-single-image-display 
+		<single-image 
 			imageLink="https://sun9-23.userapi.com/c856520/v856520481/1b6817/UjCnl2LlYHw.jpg"
 			description="Раздел “Музыканты”"
 		/>
 
-		<app-single-image-display 
+		<single-image 
 			imageLink="https://sun9-19.userapi.com/c856520/v856520481/1b6821/mlF9JsOXips.jpg"
 			description="Страница музыканта"
 		/>

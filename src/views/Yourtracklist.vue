@@ -7,7 +7,7 @@
 		<div class="container main-container">
 
 			<!-- Portfolio Left Navigation Bar -->
-			<app-side-bar-nav
+			<side-bar-nav
 				class="side-bar"
 				:navAnchors="navAnchors"
 			/>
@@ -41,7 +41,7 @@
 </template>
 
 <script>
-import AppSideBarNav from '@/components/AppSideBarNav.vue';
+import SideBarNav from '@/components/App/SideBarNav';
 
 import PrevSection from '@/components/Yourtracklist/PrevSection.vue';
 import AboutProject from '@/components/Yourtracklist/AboutProject.vue';
@@ -58,7 +58,7 @@ export default {
 		PrevSection,
 		AboutProject,
 		Concept,
-		AppSideBarNav,
+		SideBarNav,
 		Discovery,
 		Define,
 		Develop,

@@ -30,7 +30,7 @@
 		</div>
 
 
-		<app-single-image-display 
+		<single-image 
 			imageLink="https://sun9-48.userapi.com/c858528/v858528770/1ba5b7/KONesAV75tk.jpg"
 			description="Анализ структуры soundcloud"
 		/>
@@ -40,7 +40,7 @@
 		</span>
 
 
-		<app-image-gallery 
+		<image-gallery 
 			:images="[
 				'https://sun9-64.userapi.com/c855132/v855132770/242951/Pbo_RdrxfQQ.jpg',
 				'https://sun9-50.userapi.com/c855132/v855132770/24295a/wBQ-emS-GyU.jpg',
@@ -92,7 +92,7 @@
 		</div>
 
 
-		<app-image-gallery 
+		<image-gallery 
 			:images="[
 				'https://sun9-5.userapi.com/c856016/v856016910/246c6c/jLevusFoy1w.jpg',
 				'https://sun9-24.userapi.com/c856016/v856016910/246c9d/4-oNq3Vt0jI.jpg',

@@ -50,7 +50,7 @@
 			</span>
 		</div>
 
-		<app-image-gallery 
+		<image-gallery 
 			:images="[
 				'https://sun9-46.userapi.com/c858520/v858520200/1aff4f/9J_vv1iuqps.jpg',
 				'https://sun9-21.userapi.com/c858520/v858520200/1aff59/v4eD9iqOGc8.jpg',
@@ -134,7 +134,7 @@
 			<span class="body-2 mb-2">Этап Delivery. Запуск решения</span>
 		</div>
 
-		<app-single-image-display 
+		<single-image 
 			imageLink="https://sun9-27.userapi.com/c857416/v857416234/21134f/3EYm-xJ2nrc.jpg"
 		/>
 	

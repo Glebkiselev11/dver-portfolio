@@ -2,11 +2,11 @@ import Vue from 'vue';
 import App from './App.vue';
 import router from './router';
 
-import AppSingleImageDisplay from '@/components/AppSingleImageDisplay.vue';
-import AppImageGallery from '@/components/AppImageGallery';
+import SingleImage from '@/components/App/SingleImage';
+import ImageGallery from '@/components/App/ImageGallery';
 
-Vue.component('AppSingleImageDisplay', AppSingleImageDisplay);
-Vue.component('AppImageGallery', AppImageGallery);
+Vue.component('SingleImage', SingleImage);
+Vue.component('ImageGallery', ImageGallery);
 
 Vue.config.productionTip = false;
 

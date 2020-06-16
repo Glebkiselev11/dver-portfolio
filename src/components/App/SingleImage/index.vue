@@ -29,7 +29,7 @@
 
 <script>
 export default {
-	name: 'app-single-image-display',
+	name: 'single-image',
 
 	props: {
 		imageLink: {

@@ -5,6 +5,7 @@
 			v-for="(image, index) of images"
 			:key="index"
 			:src="image"
+
 			:style="{ 
 				display: index > 2 ? 'none' : ''
 			}"
@@ -12,7 +13,9 @@
 				'first-image' : index < 1,
 				'third-non-last-image' : index === 2 && images.length > 2
 			}"
+
 			:alt="`${index + 1}-picture`"
+			@click="openImageGallery"
 			class="image-item"
 		/>
 
@@ -28,7 +31,7 @@
 
 <script>
 export default {
-	name: 'app-image-gallery',
+	name: 'image-gallery',
 
 	props: {
 		images: {
@@ -41,6 +44,13 @@ export default {
 		howMochMore() {
 			return `+${this.images.length - 2}`;
 		}
+	},
+
+	methods: {
+		openImageGallery() {
+			
+			
+		}
 	}
 }
 </script>
@@ -52,7 +62,6 @@ export default {
 	flex-wrap: wrap;
 	width: 100%;
 	justify-content: space-between;
-	min-height: 35.625rem;
 	margin: 3.5rem 0;
 	position: relative;
 }

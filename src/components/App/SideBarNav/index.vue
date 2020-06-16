@@ -20,7 +20,7 @@
 
 <script>
 export default {
-	name: 'app-side-bar-nav',
+	name: 'side-bar',
 
 	props: {
 		navAnchors: {
