@@ -11,7 +11,7 @@
 			}"
 			:class="{
 				'first-image' : index < 1,
-				'third-non-last-image' : index === 2 && images.length > 2
+				'third-non-last-image' : index === 2 && images.length > 3
 			}"
 
 			:alt="`${index + 1}-picture`"
@@ -25,13 +25,24 @@
 			v-text="howMochMore"
 		/>
 
+		<gallery 
+			v-if="isShowGallery"
+			:images="images"
+		/>
+
 
 	</section>
 </template>
 
 <script>
+import Gallery from './Gallery.vue';
+
 export default {
 	name: 'image-gallery',
+
+	components: {
+		Gallery
+	},
 
 	props: {
 		images: {
@@ -39,6 +50,10 @@ export default {
 			required: true
 		},
 	},
+
+	data: () => ({
+		isShowGallery: false
+	}),
 
 	computed: {
 		howMochMore() {
@@ -48,8 +63,7 @@ export default {
 
 	methods: {
 		openImageGallery() {
-			
-			
+			this.isShowGallery = true;
 		}
 	}
 }

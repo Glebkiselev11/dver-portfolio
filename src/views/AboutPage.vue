@@ -23,7 +23,7 @@
 
 				<caption>Октябрь 2019 — Июль 2020</caption>
 
-				<a class="body-3" href="#">Смотреть проект в портфолио</a>
+				<router-link class="body-3" to="/portfolio">Смотреть проект в портфолио</router-link>
 
 			</div>
 
