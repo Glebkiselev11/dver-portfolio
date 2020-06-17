@@ -52,9 +52,18 @@
 
 		<image-gallery 
 			:images="[
-				'https://sun9-51.userapi.com/c855224/v855224845/23e7cf/Ijgzn_EZI5w.jpg',
-				'https://sun9-20.userapi.com/c855224/v855224845/23e7e3/lWDRcISKJO8.jpg',
-				'https://sun9-20.userapi.com/c855224/v855224845/23e7d9/zKgWxgSYxmQ.jpg'
+				{
+					link: 'https://sun9-51.userapi.com/c855224/v855224845/23e7cf/Ijgzn_EZI5w.jpg',
+					description: 'Страница релизов'
+				},
+				{
+					link: 'https://sun9-20.userapi.com/c855224/v855224845/23e7e3/lWDRcISKJO8.jpg',
+					description: 'Страница релиза'
+				},
+				{
+					link: 'https://sun9-20.userapi.com/c855224/v855224845/23e7d9/zKgWxgSYxmQ.jpg',
+					description: 'Страница автора'
+				}
 			]"
 		/>
 

@@ -7,7 +7,7 @@
 
 			:style="{ 
 				display: index > 2 ? 'none' : '',
-				backgroundImage: `url('${image}')`
+				backgroundImage: `url('${image.link}')`
 			}"
 			:class="{
 				'first-image' : index < 1,

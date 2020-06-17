@@ -4,6 +4,14 @@
 			:src="currentImage"
 			class="image"
 		>
+
+
+		<div class="description-wrap">
+			<span class="count" v-text="count" />
+			<span v-text="description" />
+		</div>
+		
+		
 	</div>
 </template>
 
@@ -19,13 +27,25 @@ export default {
 	},
 
 	data: () => ({
-		currentIndex: 0
+		currentIndex: 1
 	}),
 
 	computed: {
 		currentImage() {
-			return this.images[this.currentIndex];
+			return this.images[this.currentIndex].link;
+		},
+
+		description() {
+			return `${this.images[this.currentIndex].description}`;
+		},
+
+		count() {
+			return `${this.currentIndex + 1} из ${this.images.length}`;
 		}
+	},
+
+	created() {
+
 	}
 
 
@@ -38,16 +58,40 @@ export default {
 	position: fixed;
 	transform: translateX(-50%) translateY(-50%);
 	background: rgba(0, 0, 0, 0.6);
-	padding: 100%;
-	width: 80%;
+	overflow: hidden;
+	height: 100vh;
+	width: 100vw;
 	top: 50%;
 	left: 50%;
 	z-index: 1;
+
+	display: flex;
+	align-content: center;
+	justify-content: center;
 }
 
 .image {
-	width: 100%;
+	position: absolute;
+  left: 50%;
+  top: 50%;
+	transform: translateX(-50%) translateY(-50%);
+  width: auto;
+  height: 80%;
+}
 
+
+.description-wrap {
+	position: absolute;
+	left: 3rem;
+	bottom: 1.5rem;
+}
+
+.description-wrap > span {
+	color: var(--secondary-main);
+}
+
+.description-wrap > .count {
+	margin-right: 1rem;
 }
 
 </style>
