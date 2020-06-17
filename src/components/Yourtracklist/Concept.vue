@@ -52,9 +52,9 @@
 
 		<image-gallery 
 			:images="[
-				'https://sun9-46.userapi.com/c858520/v858520200/1aff4f/9J_vv1iuqps.jpg',
-				'https://sun9-21.userapi.com/c858520/v858520200/1aff59/v4eD9iqOGc8.jpg',
-				'https://sun9-19.userapi.com/c858520/v858520200/1aff63/t_ofE14bS0A.jpg'
+				'https://sun9-51.userapi.com/c855224/v855224845/23e7cf/Ijgzn_EZI5w.jpg',
+				'https://sun9-20.userapi.com/c855224/v855224845/23e7e3/lWDRcISKJO8.jpg',
+				'https://sun9-20.userapi.com/c855224/v855224845/23e7d9/zKgWxgSYxmQ.jpg'
 			]"
 		/>
 

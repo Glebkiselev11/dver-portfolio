@@ -1,13 +1,13 @@
 <template>
 	<!-- Image album (store 3 or more pictures) -->
 	<section class="image-gallery">
-		<img
+		<div
 			v-for="(image, index) of images"
 			:key="index"
-			:src="image"
 
 			:style="{ 
-				display: index > 2 ? 'none' : ''
+				display: index > 2 ? 'none' : '',
+				backgroundImage: `url('${image}')`
 			}"
 			:class="{
 				'first-image' : index < 1,
@@ -75,6 +75,7 @@ export default {
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%;
+	height: 35rem;
 	justify-content: space-between;
 	margin: 3.5rem 0;
 	position: relative;
@@ -82,6 +83,10 @@ export default {
 
 .image-item {
 	width: 48.5%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 33%;
 }
 
 .image-item:hover {
@@ -90,6 +95,7 @@ export default {
 
 .first-image {
 	width: 100%;
+	height: 66%;
 	margin-bottom: 1.25rem;
 }
 
