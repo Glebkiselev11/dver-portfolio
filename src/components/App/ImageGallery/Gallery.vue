@@ -10,6 +10,13 @@
 			<span class="count" v-text="count" />
 			<span v-text="description" />
 		</div>
+
+
+		<!-- Close image gallery -->
+		<button
+			class="material-icons close-btn"
+			v-text="'clear'"
+		/>
 		
 		
 	</div>
@@ -85,13 +92,27 @@ export default {
 	left: 3rem;
 	bottom: 1.5rem;
 }
-
 .description-wrap > span {
 	color: var(--secondary-main);
 }
-
 .description-wrap > .count {
 	margin-right: 1rem;
+}
+
+
+.close-btn {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 7.6875rem;
+	height: 7.6875rem;
+	border: none;
+	font-size: 3rem;
+	cursor: pointer;
+}
+
+.close-btn:hover {
+	background: rgba(0, 0, 0, 0.08);
 }
 
 </style>
