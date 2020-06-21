@@ -1,16 +1,16 @@
 <template>
 	<section class="about-project">
-		<h4 class="title">О проекте</h4>
+		<h4 class="mb-5">О проекте</h4>
 
-		<span class="body-1 description">
-			Паблик yourtracklist был основан в 2015 году Вконтакте. Аудитория росла, появлялись 
-			новые идеи подачи контента. Паблик осваивал другие площадки — soundcloud, 
-			bandcamp, telegram. Выделился отдельный паблик lost2432615184 с музыкой в жанре 
-			ambient и dron. Появился лейбл на bandcamp, создавались миксы (за неделю, месяц,
-			тематические), меню с архивами релизов.
+		<span class="body-1 mb-4">
+			Yourtracklist был основан в 2015 году как паблик электронной музыки Вконтакте. 
+			Аудитория росла, появлялись новые идеи подачи контента. Паблик осваивал другие 
+			площадки — soundcloud, bandcamp, telegram. Выделился отдельный паблик lost2432615184
+			с музыкой в жанре ambient и dron. Появился лейбл на bandcamp, создавались миксы 
+			(за неделю, месяц, тематические), меню с архивами релизов.
 		</span>
 
-		<h6 class="problem-title">Проблемы yourtracklist</h6>
+		<h6 class="mb-3">Проблемы yourtracklist</h6>
 
 		<span class="body-1 mb-2">С увеличением аудитории фидбек от пользователей не увеличивается</span>
 
@@ -38,22 +38,3 @@
 
 	</section>
 </template>
-
-<style scoped>
-
-
-.title {
-	margin-bottom: 2.5rem;
-}
-
-.description {
-	margin-bottom: 2rem;
-	display: block;
-}
-
-.problem-title {
-	margin-bottom: 1rem;
-}
-
-
-</style>

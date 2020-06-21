@@ -10,22 +10,40 @@
 				от существующих сейчас проблем:
 			</span>
 			
-			<span class="body-2 mb-2">
-				1) Отсутствие режима показа постов с любимым музыкантом/жанром
-			</span>
-			
-			<span class="body-2 mb-2">
-				2) Отсутствие быстрого доступа к странице музыканта и его музыке
-			</span>
+			<ul>
+				<li class="body-2 mb-2">
+					1) Отсутствие режима показа постов с любимым музыкантом/жанром
+				</li>
+
+				<li class="body-2 mb-2">
+					2) Отсутствие быстрого доступа к странице музыканта и его музыке
+				</li>
+
+				<li class="body-2 mb-2">
+					3) Ограничения Вконтакте как для пользователей, так и для yourtracklist
+				</li>
+			</ul>
 		</div>
 
 
 		<div class="semantic-part">
 			<h6>Проектирование</h6>
-			<span class="body-1">
+			<span class="body-1 mb-2">
 				При проектировании ориентировались на популярные музыкальные сервисы 
 				(soundcloud, Вконтакте, Youtube music, Яндекс.Музыка, bandcamp 
 				(кроме spotify)) и новостные сайты (vc.ru, Youtube, habr).
+			</span>
+
+			<span class="body-1 mb-2">
+				Оценка функционала сервисов проводилась поверхностно. Не делались 
+				сравнительные таблицы фичей, потому что не было цели создать продукт, 
+				вбирающий в себя другие музыкальные сервисы. В решениях функциональности 
+				исходили из фидбека пользователей на глубинных интервью.
+			</span>
+
+			<span class="body-1">
+				Целью проектирования было как можно быстрее протестировать 
+				прототип на реальных людях. 
 			</span>
 		</div>
 
@@ -42,10 +60,18 @@
 
 		<image-gallery 
 			:images="[
-				'https://sun9-64.userapi.com/c855132/v855132770/242951/Pbo_RdrxfQQ.jpg',
-				'https://sun9-50.userapi.com/c855132/v855132770/24295a/wBQ-emS-GyU.jpg',
-				'https://sun9-12.userapi.com/c855132/v855132770/242963/9ZpKsA9QiQQ.jpg',
-				'https://sun9-34.userapi.com/c855132/v855132770/24296d/PguawekvZ-M.jpg'
+				{
+					link: 'https://sun9-64.userapi.com/c855132/v855132770/242951/Pbo_RdrxfQQ.jpg'
+				},
+				{
+					link: 'https://sun9-50.userapi.com/c855132/v855132770/24295a/wBQ-emS-GyU.jpg'
+				},
+				{
+					link: 'https://sun9-12.userapi.com/c855132/v855132770/242963/9ZpKsA9QiQQ.jpg'
+				},
+				{
+					link: 'https://sun9-34.userapi.com/c855132/v855132770/24296d/PguawekvZ-M.jpg'
+				}
 			]"
 		/>
 
@@ -94,11 +120,21 @@
 
 		<image-gallery 
 			:images="[
-				'https://sun9-5.userapi.com/c856016/v856016910/246c6c/jLevusFoy1w.jpg',
-				'https://sun9-24.userapi.com/c856016/v856016910/246c9d/4-oNq3Vt0jI.jpg',
-				'https://sun9-26.userapi.com/c856016/v856016910/246c80/GGFxYD1JDjs.jpg',
-				'https://sun9-10.userapi.com/c856016/v856016910/246c8a/J3vwiS_2KVI.jpg',
-				'https://sun9-16.userapi.com/c856016/v856016910/246c94/b_yYs9pfcfE.jpg'
+				{
+					link: 'https://sun9-5.userapi.com/c856016/v856016910/246c6c/jLevusFoy1w.jpg'
+				},
+				{
+					link: 'https://sun9-24.userapi.com/c856016/v856016910/246c9d/4-oNq3Vt0jI.jpg'
+				},
+				{
+					link: 'https://sun9-26.userapi.com/c856016/v856016910/246c80/GGFxYD1JDjs.jpg'
+				},
+				{
+					link: 'https://sun9-10.userapi.com/c856016/v856016910/246c8a/J3vwiS_2KVI.jpg'
+				},
+				{
+					link: 'https://sun9-16.userapi.com/c856016/v856016910/246c94/b_yYs9pfcfE.jpg'
+				}
 			]"
 		/>
 

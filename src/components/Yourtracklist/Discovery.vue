@@ -20,7 +20,12 @@
 
 		<single-image
 			imageLink="https://sun9-56.userapi.com/c857228/v857228493/1badad/y4-_utn22W0.jpg"
-			description="Из комментариев получили полезные инсайты (https://vk.com/wall-86451899_42168)"
+			description='
+			Из комментариев получили полезные 
+			<a 
+				href="https://docs.google.com/document/d/1hOQE6fuBP7_fAJGU0R1gM_1HTx8_1JBQ-9X3ZQkbIxo/edit?usp=sharing"
+				target="_blank"
+			>инсайты</a>'
 		/>
 
 		<span class="body-1">
@@ -29,18 +34,25 @@
 					href="https://docs.google.com/document/d/1oxUKPYzbbNmHyiNXJbZqgDgoxWl21CgtTcXjZnS158A"
 					target="_blank"
 					v-text="'пользовательские интервью'"
-				/>
-			и опрос.</b> Цели: узнать
+				/> 
+				и
+				<a
+					href="https://docs.google.com/spreadsheets/d/1z9ctq-nNNxG34aJ4MFzHNobDTxRpxFKx5h0yVYv2qSY/edit?usp=sharing"
+					target="_blank"
+					v-text="'опрос'"
+				/>.
+			
+			</b> Цели: узнать
 		</span>
 
 		<ul>
-			<li class="mt-2">1) в каких ситуациях пользаватели слушают музыку</li>
-			<li class="mt-2">2) как находят, что послушать</li>
-			<li class="mt-2">3) в каких сервисах слушают музыку</li>
-			<li class="mt-2">4) пользуются ли платными подписками</li>
-			<li class="mt-2">5) какие есть проблемы при прослушивании музыки</li>
-			<li class="mt-2">6) почему слушают музыку в ytl</li>
-			<li class="mt-2">7) используют ли телеграм</li>
+			<li class="mt-2 body-2">1) в каких ситуациях пользаватели слушают музыку</li>
+			<li class="mt-2 body-2">2) как находят, что послушать</li>
+			<li class="mt-2 body-2">3) в каких сервисах слушают музыку</li>
+			<li class="mt-2 body-2">4) пользуются ли платными подписками</li>
+			<li class="mt-2 body-2">5) какие есть проблемы при прослушивании музыки</li>
+			<li class="mt-2 body-2">6) почему слушают музыку в ytl</li>
+			<li class="mt-2 body-2">7) используют ли телеграм</li>
 		</ul>
 
 		<span class="body-1 mt-3">

@@ -9,7 +9,7 @@
 		<span
 			v-if="description"
 			class="body-2 mt-2"
-			v-text="description"
+			v-html="description"
 		/>
 
 		<div
